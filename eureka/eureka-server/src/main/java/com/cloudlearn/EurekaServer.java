@@ -1,15 +1,16 @@
 package com.cloudlearn;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * 描述:  eureka_server
- *
- * @author jone.zhang@marketin.cn
- * @create 2018-11-22 下午5:56
- * @since cloudlearn
+ * Created by Jone on 2018-11-24.
  */
+@SpringBootApplication
+@EnableEurekaServer
 public class EurekaServer {
+
     public static void main(String args[]){
         SpringApplication.run(EurekaServer.class);
     }

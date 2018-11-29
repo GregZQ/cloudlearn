@@ -12,8 +12,8 @@
     <artifactId>config</artifactId>
     <packaging>pom</packaging>
     <modules>
+        <module>config-server</module>
         <module>config-client</module>
-        <module>config-servers</module>
     </modules>
 
 
